@@ -3,3 +3,44 @@
     padding: 0;
     box-sizing: border-box;
 }
+.navbar-brand{
+    color: black;
+    font-size: 35px;
+    font-weight: 600;
+}
+.nav-link{
+    color: black;
+    font-weight: 600;
+}
+.carousel-caption {
+    position: absolute;
+    top: 60%;
+    transform: translateY(-80%);
+    left:3%;
+    
+
+}
+.carousel-caption h1{
+    color: black;
+    font-weight: 800;
+    font-size: 70px;
+}
+.carousel-caption p{
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
+}
+.btn0{
+    background-color: red;
+    height: 40px;
+    width: 150px;
+    color: white;
+    outline: none;
+    border: none;
+}
+.btn0:hover{
+    background-color: white;
+    color:red;
+    font-weight: 500;
+    transition: 0.4s;
+}
